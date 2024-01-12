@@ -33,7 +33,7 @@ body{
 /* Start nav bar ================*/
 .nav-bg{
     background-color: var(--body);
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
     padding: 15px 0px;
 }
 .nav-bar{
@@ -135,6 +135,11 @@ body{
 .activities-content{
     width: 45%;
 }
+.activities-content p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 14px;
+}
 .activities-content a{
     background-color: var(--primary);
     text-decoration: none;
@@ -156,6 +161,9 @@ body{
 /* End Activities section ======================= */
 
 /* Start offer section ===========================*/
+.offer-bg{
+   padding: 50px 0px;
+}
 .offer-container{
     display: flex;
     justify-content: space-between;
@@ -171,6 +179,19 @@ body{
     margin-top: 10px;
     color: var(--secondary);
     font-size: 12px;
+    text-align: justify;
+}
+.offer-item-top{
+    border-left: 5px solid var(--primary);
+
+}
+.offer-item-bottom{
+    margin-left: 15px;
+}
+.offer-item-top h3{
+    margin-left: 10px;
+
+
 }
 .offer-item h5{
     margin-top: 50px;
@@ -179,12 +200,66 @@ body{
     font-weight: 700;
 }
 .offer-img{
+    position: relative;
     width: 45%;
 }
 .offer-img img{
     width: 100%;
 }
+.offer-img a{
+    position: absolute;
+    bottom: -25px;
+    left: -50px;
+    background-color: var(--primary);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: var(--body);
+    text-align: center;
+}
+.ten-years{
+    font-size: 30px;
+    font-weight: 700;
+}
 /* End offer section ===========================*/
+
+/* start service section ======================= */
+.service-head{
+    padding: 20px 0px;
+    width: 300px;
+
+}
+.service-head p{
+    color: var(--secondary);
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.service-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.service-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--primary);
+    border-radius: 7px;
+
+
+}
+.service-box .box img{
+    margin-bottom: 10px;
+    width: 25%;
+
+}
+/* start service section ======================= */
 
 
 
