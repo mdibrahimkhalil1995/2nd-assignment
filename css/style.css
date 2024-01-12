@@ -155,6 +155,37 @@ body{
 
 /* End Activities section ======================= */
 
+/* Start offer section ===========================*/
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-content{
+    width: 45%;
+}
+.offer-item{
+    
+}
+.offer-item p{
+    margin-top: 10px;
+    color: var(--secondary);
+    font-size: 12px;
+}
+.offer-item h5{
+    margin-top: 50px;
+}
+.offer-item h5{
+    font-weight: 700;
+}
+.offer-img{
+    width: 45%;
+}
+.offer-img img{
+    width: 100%;
+}
+/* End offer section ===========================*/
+
 
 
 
