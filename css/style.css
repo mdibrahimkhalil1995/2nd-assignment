@@ -259,7 +259,27 @@ body{
     width: 25%;
 
 }
-/* start service section ======================= */
+/* End service section ======================= */
+
+/* Start Sponsore section =========================*/
+.sponsore-head{
+    padding: 20px 0px;
+    width: 300px;
+
+}
+.sponsore-head p{
+    color: var(--secondary);
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.sponsores-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+/* End Sponsore Section============================ */
 
 
 
