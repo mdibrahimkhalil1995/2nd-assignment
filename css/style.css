@@ -7,7 +7,7 @@
 :root{
     --primary: #FF900E;
     --secondary: #727272;
-    --body: #FFE9CE;
+    --body: #fae8d1;
 }
 .container{
     max-width: 992px;
@@ -17,6 +17,12 @@ body{
     font-family: sans-serif, serif;
 }
 
+.primary-color{
+    color: var(--primary);
+}
+.secondary-color{
+    color: var(--secondary);
+}
 
 /* ======================================================================
 ======================================================================= */
@@ -96,12 +102,58 @@ body{
     border: 2px solid var(--primary);
 }
 
-/* Start brand information section =========== */
+/* End brand information section =========== */
 
+/* Start banner section =========================== */
+.banner-bg{
+    background-color: var(--body);
+    padding-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+}
+/* End banner section =========================== */
 
+/* Start Activities section ======================*/
+.activities-bg{
+    padding: 30px 0px;
+}
+.activities-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activities-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 45%;
+}
+.activities-img img{
+    width: 100%;
+}
+.activities-content{
+    width: 45%;
+}
+.activities-content a{
+    background-color: var(--primary);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: var(--body);
+    font-weight: 600;
+    border: 2px solid var(--body);
+    transition: 1s all ease;
+}
+.activities-content a:hover{
+    color: var(--primary);
+    background-color: var(--body);
+    border: 2px solid var(--primary);
+}
 
-
-
+/* End Activities section ======================= */
 
 
 
