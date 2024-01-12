@@ -117,6 +117,7 @@ body{
 /* Start Activities section ======================*/
 .activities-bg{
     padding: 30px 0px;
+    margin: 15px;
 }
 .activities-container{
     display: flex;
@@ -172,9 +173,9 @@ body{
 .offer-content{
     width: 45%;
 }
-.offer-item{
+/* .offer-item{
     
-}
+} */
 .offer-item p{
     margin-top: 10px;
     color: var(--secondary);
@@ -282,6 +283,24 @@ body{
 /* End Sponsore Section============================ */
 
 
+/* Start Footer Section ============================ */
+.footer-bg{
+    background-color: var(--secondary);
+}
+footer{
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: var(--secondary);
+
+}
+/* End Footer Section ============================ */
+
+
+
+/* Start Media Quary 
+================================== Only for Mobile Viwe
+================================== */
 
 
 @media screen and (max-width: 576px) {
@@ -302,4 +321,56 @@ body{
         font-size: 25px;
         text-transform: uppercase;
     }
+    .activities-img{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .activities-content{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .activities-container{
+        flex-direction: column;
+    }
+    .offer-container{
+        flex-direction: column;
+    }
+    .offer-content{
+        width: 100%;
+        padding: 15px;
+    }
+    .offer-img{
+        width: 100%;
+        padding: 15px;
+    }
+    .service-box{
+        flex-direction: column;
+    }
+    .service-container{
+        margin: 15px;
+    }
+    .service-box .box{
+        width: 100%;
+        height: 250px;
+        margin-top: 15px;
+    }
+    .offer-img a{
+        bottom: 20px;
+        left: 15px;
+    }
+    .sponsor-container{
+        margin: 15px;
+    }
+    .sponsores-logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sponsores-logo img{
+        width: 70%;
+        margin: 15px;
+    }
+
 }
+/* Eand Media Quary ======================== */
